@@ -6,17 +6,10 @@ import time
 
 #proxy={'http':'socks5://127.0.0.1:9150','https':'socks5://127.0.0.1:9150'}
 proxy={};
-#target=({'url':'http://www.gfsteamtv.top/2017.php',
+#target=({'url':'some_phishing_site',
 #    'post':[{'name':'u','type':'qq'},{'name':'p','type':'pass'}],
-#    'ref':'http://gfsteamtv.top/'},
-#	{'url':'http://www.gfdali.top/dnf.php',
-#    'post':[{'name':'u','type':'qq'},{'name':'p','type':'pass'}],
-#    'ref':'http://gfdali.top/'},
-#    {'url':'http://kghfgdrgd.gq/mail1.php?user=hjg77987',
-#    'post':[{'name':'u','type':'qq'},{'name':'p','type':'pass'}],
-#    'ref':'http://kghfgdrgd.gq/you/20/index.php?user=hjg77987&ta=888652_hao&=uw579G7974FHd5H7t76542fe'},
-#    )
-target=({'url':'https://www.huanbeiloan.com/hbzc/a11/455?channel=bst09',
+#    'ref':'http_referer'},)
+target=({'url':'https://some_malicious_site/',
     'post':[{'name':'mobile','type':'mobile'},],
     'ref':'https://www.huanbeiloan.com/hbzc/a11/455?channel=bst09'},
     )
