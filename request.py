@@ -11,7 +11,7 @@ proxy={};
 #    'ref':'http_referer'},)
 target=({'url':'https://some_malicious_site/',
     'post':[{'name':'mobile','type':'mobile'},],
-    'ref':'https://www.huanbeiloan.com/hbzc/a11/455?channel=bst09'},
+    'ref':'referer'},
     )
 ua=('Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
         'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Firefox/61.1 Safari/534.36',
